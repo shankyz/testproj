@@ -26,8 +26,7 @@ spec:
       volumes:
         - name: jenkins-home
           persistentVolumeClaim:
-		  claimName: "pvc-nfs-pv1"
-		  
+	       claimName: "jenkins-volume-claim"  
 ---
 apiVersion: v1
 kind: Service
