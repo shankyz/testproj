@@ -26,7 +26,7 @@ spec:
       volumes:
         - name: jenkins-home
           persistentVolumeClaim:
-	       claimName: "jenkins-volume-claim"  
+               claimName: "jenkins-volume-claim"  
 ---
 apiVersion: v1
 kind: Service
